@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d5e6d5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel_container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel_container > h1 {
+    padding-bottom: 10px;
+}
+
+.carousel_container > p{
+    padding-bottom: 10px;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+#prevBtn{
+    margin-right: 10px;
+}
+
+#nextBtn{
+    margin-left: 10px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(123, 71, 172);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 15, 15);
+    color: white;
+    height: 40vh;
+    width: 40vh;
+}
